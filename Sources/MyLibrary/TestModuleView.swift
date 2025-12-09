@@ -5,6 +5,8 @@ import SwiftUI
 
 public struct TestModuleView: View {
     
+    public init() {}
+    
     public var body: some View {
         VStack {
             Image(systemName: "globe")
