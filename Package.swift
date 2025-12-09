@@ -7,7 +7,7 @@ let package = Package(
     name: "MyLibrary",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v18)
+        .iOS("16.4")
     ],
     products: [
         .library(
