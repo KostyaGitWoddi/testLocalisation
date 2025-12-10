@@ -20,9 +20,24 @@ public struct TestModuleView: View {
             
             Text(.assssaasdda1111Sss)
 
+            Text(
+                  "hjikhhkjhk",
+                  tableName: "Localizable",
+                  bundle: .module,          
+                  comment: nil
+              )
+            
+            Text(LocalizedStringKey(LocalizedStringResource.hjikhhkjhk.key),
+                 bundle: .module,
+                 comment: nil
+            )
         }
         .padding()
     }
+}
+
+#Preview("Rest Phase ") {
+    TestModuleView()
 }
 
 #Preview("Rest Phase ukrainian") {
